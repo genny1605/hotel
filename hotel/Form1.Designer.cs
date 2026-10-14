@@ -39,6 +39,8 @@
             this.txt_giorni = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lbl_n4 = new System.Windows.Forms.Label();
+            this.btn_prenota = new System.Windows.Forms.Button();
+            this.lbl_n5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -46,18 +48,18 @@
             // chk_parcheggio
             // 
             this.chk_parcheggio.AutoSize = true;
-            this.chk_parcheggio.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chk_parcheggio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chk_parcheggio.ForeColor = System.Drawing.Color.Fuchsia;
             this.chk_parcheggio.Location = new System.Drawing.Point(203, 229);
             this.chk_parcheggio.Name = "chk_parcheggio";
-            this.chk_parcheggio.Size = new System.Drawing.Size(89, 30);
+            this.chk_parcheggio.Size = new System.Drawing.Size(125, 28);
             this.chk_parcheggio.TabIndex = 0;
             this.chk_parcheggio.Text = "parcheggio";
             this.chk_parcheggio.UseVisualStyleBackColor = true;
             // 
             // cmb_selezionesrtagione
             // 
-            this.cmb_selezionesrtagione.Font = new System.Drawing.Font("Microsoft Uighur", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb_selezionesrtagione.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_selezionesrtagione.ForeColor = System.Drawing.Color.Fuchsia;
             this.cmb_selezionesrtagione.FormattingEnabled = true;
             this.cmb_selezionesrtagione.Items.AddRange(new object[] {
@@ -66,18 +68,18 @@
             "alta stagione"});
             this.cmb_selezionesrtagione.Location = new System.Drawing.Point(15, 127);
             this.cmb_selezionesrtagione.Name = "cmb_selezionesrtagione";
-            this.cmb_selezionesrtagione.Size = new System.Drawing.Size(152, 34);
+            this.cmb_selezionesrtagione.Size = new System.Drawing.Size(208, 32);
             this.cmb_selezionesrtagione.TabIndex = 1;
             this.cmb_selezionesrtagione.Text = "seleziona la stagione";
             // 
             // lbl_titolo
             // 
             this.lbl_titolo.AutoSize = true;
-            this.lbl_titolo.Font = new System.Drawing.Font("Microsoft Uighur", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_titolo.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_titolo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.lbl_titolo.Location = new System.Drawing.Point(346, 9);
             this.lbl_titolo.Name = "lbl_titolo";
-            this.lbl_titolo.Size = new System.Drawing.Size(278, 45);
+            this.lbl_titolo.Size = new System.Drawing.Size(407, 42);
             this.lbl_titolo.TabIndex = 3;
             this.lbl_titolo.Text = "Benvenuti all\'hotel Blu";
             // 
@@ -131,7 +133,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(690, 42);
+            this.pictureBox2.Location = new System.Drawing.Point(691, 54);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(281, 185);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -148,11 +150,36 @@
             this.lbl_n4.TabIndex = 11;
             this.lbl_n4.Text = "vuoi prenotare il parcheggio?";
             // 
+            // btn_prenota
+            // 
+            this.btn_prenota.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_prenota.ForeColor = System.Drawing.Color.Fuchsia;
+            this.btn_prenota.Location = new System.Drawing.Point(15, 285);
+            this.btn_prenota.Name = "btn_prenota";
+            this.btn_prenota.Size = new System.Drawing.Size(98, 35);
+            this.btn_prenota.TabIndex = 12;
+            this.btn_prenota.Text = "Prenota";
+            this.btn_prenota.UseVisualStyleBackColor = true;
+            this.btn_prenota.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lbl_n5
+            // 
+            this.lbl_n5.AutoSize = true;
+            this.lbl_n5.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_n5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.lbl_n5.Location = new System.Drawing.Point(12, 336);
+            this.lbl_n5.Name = "lbl_n5";
+            this.lbl_n5.Size = new System.Drawing.Size(80, 17);
+            this.lbl_n5.TabIndex = 13;
+            this.lbl_n5.Text = "spesa totale:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1022, 480);
+            this.Controls.Add(this.lbl_n5);
+            this.Controls.Add(this.btn_prenota);
             this.Controls.Add(this.lbl_n4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.txt_giorni);
@@ -184,6 +211,8 @@
         private System.Windows.Forms.TextBox txt_giorni;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lbl_n4;
+        private System.Windows.Forms.Button btn_prenota;
+        private System.Windows.Forms.Label lbl_n5;
     }
 }
 
