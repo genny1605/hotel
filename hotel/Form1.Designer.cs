@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.chk_parcheggio = new System.Windows.Forms.CheckBox();
-            this.cmb_selezionesrtagione = new System.Windows.Forms.ComboBox();
+            this.cmb_selezionestagione = new System.Windows.Forms.ComboBox();
             this.lbl_titolo = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_n1 = new System.Windows.Forms.Label();
@@ -41,6 +41,7 @@
             this.lbl_n4 = new System.Windows.Forms.Label();
             this.btn_prenota = new System.Windows.Forms.Button();
             this.lbl_n5 = new System.Windows.Forms.Label();
+            this.cmb_selezionecamera = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -57,20 +58,20 @@
             this.chk_parcheggio.Text = "parcheggio";
             this.chk_parcheggio.UseVisualStyleBackColor = true;
             // 
-            // cmb_selezionesrtagione
+            // cmb_selezionestagione
             // 
-            this.cmb_selezionesrtagione.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmb_selezionesrtagione.ForeColor = System.Drawing.Color.Fuchsia;
-            this.cmb_selezionesrtagione.FormattingEnabled = true;
-            this.cmb_selezionesrtagione.Items.AddRange(new object[] {
+            this.cmb_selezionestagione.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb_selezionestagione.ForeColor = System.Drawing.Color.Fuchsia;
+            this.cmb_selezionestagione.FormattingEnabled = true;
+            this.cmb_selezionestagione.Items.AddRange(new object[] {
             "bassa stagione",
             "media stagione",
             "alta stagione"});
-            this.cmb_selezionesrtagione.Location = new System.Drawing.Point(15, 127);
-            this.cmb_selezionesrtagione.Name = "cmb_selezionesrtagione";
-            this.cmb_selezionesrtagione.Size = new System.Drawing.Size(208, 32);
-            this.cmb_selezionesrtagione.TabIndex = 1;
-            this.cmb_selezionesrtagione.Text = "seleziona la stagione";
+            this.cmb_selezionestagione.Location = new System.Drawing.Point(15, 127);
+            this.cmb_selezionestagione.Name = "cmb_selezionestagione";
+            this.cmb_selezionestagione.Size = new System.Drawing.Size(208, 32);
+            this.cmb_selezionestagione.TabIndex = 1;
+            this.cmb_selezionestagione.Text = "seleziona la stagione";
             // 
             // lbl_titolo
             // 
@@ -173,11 +174,25 @@
             this.lbl_n5.TabIndex = 13;
             this.lbl_n5.Text = "spesa totale:";
             // 
+            // cmb_selezionecamera
+            // 
+            this.cmb_selezionecamera.FormattingEnabled = true;
+            this.cmb_selezionecamera.Items.AddRange(new object[] {
+            "bassa",
+            "media",
+            "alta"});
+            this.cmb_selezionecamera.Location = new System.Drawing.Point(295, 135);
+            this.cmb_selezionecamera.Name = "cmb_selezionecamera";
+            this.cmb_selezionecamera.Size = new System.Drawing.Size(121, 21);
+            this.cmb_selezionecamera.TabIndex = 14;
+            this.cmb_selezionecamera.Text = "selezione camera";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1022, 480);
+            this.Controls.Add(this.cmb_selezionecamera);
             this.Controls.Add(this.lbl_n5);
             this.Controls.Add(this.btn_prenota);
             this.Controls.Add(this.lbl_n4);
@@ -188,7 +203,7 @@
             this.Controls.Add(this.lbl_n1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbl_titolo);
-            this.Controls.Add(this.cmb_selezionesrtagione);
+            this.Controls.Add(this.cmb_selezionestagione);
             this.Controls.Add(this.chk_parcheggio);
             this.Name = "Form1";
             this.Text = "seleziona la stagione";
@@ -202,7 +217,7 @@
         #endregion
 
         private System.Windows.Forms.CheckBox chk_parcheggio;
-        private System.Windows.Forms.ComboBox cmb_selezionesrtagione;
+        private System.Windows.Forms.ComboBox cmb_selezionestagione;
         private System.Windows.Forms.Label lbl_titolo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbl_n1;
@@ -213,6 +228,7 @@
         private System.Windows.Forms.Label lbl_n4;
         private System.Windows.Forms.Button btn_prenota;
         private System.Windows.Forms.Label lbl_n5;
+        private System.Windows.Forms.ComboBox cmb_selezionecamera;
     }
 }
 
