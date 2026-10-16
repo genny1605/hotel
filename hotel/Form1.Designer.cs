@@ -42,6 +42,8 @@
             this.btn_prenota = new System.Windows.Forms.Button();
             this.lbl_n5 = new System.Windows.Forms.Label();
             this.cmb_selezionecamera = new System.Windows.Forms.ComboBox();
+            this.btn_informazioni = new System.Windows.Forms.Button();
+            this.lbl_n6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -107,7 +109,7 @@
             // 
             this.lbl_n2.AutoSize = true;
             this.lbl_n2.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_n2.Location = new System.Drawing.Point(9, 85);
+            this.lbl_n2.Location = new System.Drawing.Point(12, 80);
             this.lbl_n2.Name = "lbl_n2";
             this.lbl_n2.Size = new System.Drawing.Size(658, 17);
             this.lbl_n2.TabIndex = 7;
@@ -176,6 +178,8 @@
             // 
             // cmb_selezionecamera
             // 
+            this.cmb_selezionecamera.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb_selezionecamera.ForeColor = System.Drawing.Color.Fuchsia;
             this.cmb_selezionecamera.FormattingEnabled = true;
             this.cmb_selezionecamera.Items.AddRange(new object[] {
             "bassa",
@@ -183,15 +187,38 @@
             "alta"});
             this.cmb_selezionecamera.Location = new System.Drawing.Point(295, 135);
             this.cmb_selezionecamera.Name = "cmb_selezionecamera";
-            this.cmb_selezionecamera.Size = new System.Drawing.Size(121, 21);
+            this.cmb_selezionecamera.Size = new System.Drawing.Size(121, 23);
             this.cmb_selezionecamera.TabIndex = 14;
             this.cmb_selezionecamera.Text = "selezione camera";
+            // 
+            // btn_informazioni
+            // 
+            this.btn_informazioni.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_informazioni.ForeColor = System.Drawing.Color.Black;
+            this.btn_informazioni.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_informazioni.Location = new System.Drawing.Point(882, 268);
+            this.btn_informazioni.Name = "btn_informazioni";
+            this.btn_informazioni.Size = new System.Drawing.Size(57, 23);
+            this.btn_informazioni.TabIndex = 15;
+            this.btn_informazioni.Text = "?";
+            this.btn_informazioni.UseVisualStyleBackColor = false;
+            // 
+            // lbl_n6
+            // 
+            this.lbl_n6.AutoSize = true;
+            this.lbl_n6.Location = new System.Drawing.Point(649, 273);
+            this.lbl_n6.Name = "lbl_n6";
+            this.lbl_n6.Size = new System.Drawing.Size(198, 13);
+            this.lbl_n6.TabIndex = 16;
+            this.lbl_n6.Text = "premere qui per per informazioni sul hotel";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1022, 480);
+            this.Controls.Add(this.lbl_n6);
+            this.Controls.Add(this.btn_informazioni);
             this.Controls.Add(this.cmb_selezionecamera);
             this.Controls.Add(this.lbl_n5);
             this.Controls.Add(this.btn_prenota);
@@ -229,6 +256,8 @@
         private System.Windows.Forms.Button btn_prenota;
         private System.Windows.Forms.Label lbl_n5;
         private System.Windows.Forms.ComboBox cmb_selezionecamera;
+        private System.Windows.Forms.Button btn_informazioni;
+        private System.Windows.Forms.Label lbl_n6;
     }
 }
 
