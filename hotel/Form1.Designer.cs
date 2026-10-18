@@ -40,7 +40,7 @@
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.lbl_n4 = new System.Windows.Forms.Label();
 			this.btn_prenota = new System.Windows.Forms.Button();
-			this.lbl_n5 = new System.Windows.Forms.Label();
+			this.lbl_spesaTotale = new System.Windows.Forms.Label();
 			this.cmb_selezionecamera = new System.Windows.Forms.ComboBox();
 			this.btn_informazioni = new System.Windows.Forms.Button();
 			this.lbl_n6 = new System.Windows.Forms.Label();
@@ -57,19 +57,19 @@
 			// chk_parcheggio
 			// 
 			this.chk_parcheggio.AutoSize = true;
-			this.chk_parcheggio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.chk_parcheggio.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.chk_parcheggio.ForeColor = System.Drawing.Color.Fuchsia;
-			this.chk_parcheggio.Location = new System.Drawing.Point(283, 346);
+			this.chk_parcheggio.Location = new System.Drawing.Point(290, 351);
 			this.chk_parcheggio.Margin = new System.Windows.Forms.Padding(4);
 			this.chk_parcheggio.Name = "chk_parcheggio";
-			this.chk_parcheggio.Size = new System.Drawing.Size(157, 33);
+			this.chk_parcheggio.Size = new System.Drawing.Size(119, 26);
 			this.chk_parcheggio.TabIndex = 0;
 			this.chk_parcheggio.Text = "parcheggio";
 			this.chk_parcheggio.UseVisualStyleBackColor = true;
 			// 
 			// cmb_selezionestagione
 			// 
-			this.cmb_selezionestagione.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cmb_selezionestagione.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.cmb_selezionestagione.ForeColor = System.Drawing.Color.Fuchsia;
 			this.cmb_selezionestagione.FormattingEnabled = true;
 			this.cmb_selezionestagione.Items.AddRange(new object[] {
@@ -79,7 +79,7 @@
 			this.cmb_selezionestagione.Location = new System.Drawing.Point(386, 169);
 			this.cmb_selezionestagione.Margin = new System.Windows.Forms.Padding(4);
 			this.cmb_selezionestagione.Name = "cmb_selezionestagione";
-			this.cmb_selezionestagione.Size = new System.Drawing.Size(216, 33);
+			this.cmb_selezionestagione.Size = new System.Drawing.Size(216, 30);
 			this.cmb_selezionestagione.TabIndex = 1;
 			this.cmb_selezionestagione.Text = "seleziona la stagione";
 			// 
@@ -182,17 +182,17 @@
 			this.btn_prenota.UseVisualStyleBackColor = true;
 			this.btn_prenota.Click += new System.EventHandler(this.button1_Click);
 			// 
-			// lbl_n5
+			// lbl_spesaTotale
 			// 
-			this.lbl_n5.AutoSize = true;
-			this.lbl_n5.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lbl_n5.ForeColor = System.Drawing.Color.Fuchsia;
-			this.lbl_n5.Location = new System.Drawing.Point(16, 497);
-			this.lbl_n5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.lbl_n5.Name = "lbl_n5";
-			this.lbl_n5.Size = new System.Drawing.Size(105, 22);
-			this.lbl_n5.TabIndex = 13;
-			this.lbl_n5.Text = "spesa totale:";
+			this.lbl_spesaTotale.AutoSize = true;
+			this.lbl_spesaTotale.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbl_spesaTotale.ForeColor = System.Drawing.Color.Fuchsia;
+			this.lbl_spesaTotale.Location = new System.Drawing.Point(16, 497);
+			this.lbl_spesaTotale.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.lbl_spesaTotale.Name = "lbl_spesaTotale";
+			this.lbl_spesaTotale.Size = new System.Drawing.Size(105, 22);
+			this.lbl_spesaTotale.TabIndex = 13;
+			this.lbl_spesaTotale.Text = "spesa totale:";
 			// 
 			// cmb_selezionecamera
 			// 
@@ -203,7 +203,7 @@
             "bassa",
             "media",
             "alta"});
-			this.cmb_selezionecamera.Location = new System.Drawing.Point(470, 232);
+			this.cmb_selezionecamera.Location = new System.Drawing.Point(470, 237);
 			this.cmb_selezionecamera.Margin = new System.Windows.Forms.Padding(4);
 			this.cmb_selezionecamera.Name = "cmb_selezionecamera";
 			this.cmb_selezionecamera.Size = new System.Drawing.Size(175, 30);
@@ -237,7 +237,7 @@
 			// pictureBox3
 			// 
 			this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-			this.pictureBox3.Location = new System.Drawing.Point(753, 294);
+			this.pictureBox3.Location = new System.Drawing.Point(794, 296);
 			this.pictureBox3.Name = "pictureBox3";
 			this.pictureBox3.Size = new System.Drawing.Size(280, 213);
 			this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -247,9 +247,9 @@
 			// pictureBox4
 			// 
 			this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-			this.pictureBox4.Location = new System.Drawing.Point(1145, 288);
+			this.pictureBox4.Location = new System.Drawing.Point(1130, 294);
 			this.pictureBox4.Name = "pictureBox4";
-			this.pictureBox4.Size = new System.Drawing.Size(265, 219);
+			this.pictureBox4.Size = new System.Drawing.Size(265, 213);
 			this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox4.TabIndex = 18;
 			this.pictureBox4.TabStop = false;
@@ -286,7 +286,7 @@
 			this.Controls.Add(this.lbl_n6);
 			this.Controls.Add(this.btn_informazioni);
 			this.Controls.Add(this.cmb_selezionecamera);
-			this.Controls.Add(this.lbl_n5);
+			this.Controls.Add(this.lbl_spesaTotale);
 			this.Controls.Add(this.btn_prenota);
 			this.Controls.Add(this.lbl_n4);
 			this.Controls.Add(this.pictureBox2);
@@ -323,8 +323,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lbl_n4;
         private System.Windows.Forms.Button btn_prenota;
-        private System.Windows.Forms.Label lbl_n5;
-        private System.Windows.Forms.ComboBox cmb_selezionecamera;
+        private System.Windows.Forms.Label lbl_spesaTotale;
+		private System.Windows.Forms.ComboBox cmb_selezionecamera;
         private System.Windows.Forms.Button btn_informazioni;
         private System.Windows.Forms.Label lbl_n6;
 		private System.Windows.Forms.PictureBox pictureBox3;
