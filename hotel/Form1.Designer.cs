@@ -91,9 +91,9 @@
 			this.lbl_titolo.Location = new System.Drawing.Point(461, 11);
 			this.lbl_titolo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lbl_titolo.Name = "lbl_titolo";
-			this.lbl_titolo.Size = new System.Drawing.Size(501, 54);
+			this.lbl_titolo.Size = new System.Drawing.Size(509, 54);
 			this.lbl_titolo.TabIndex = 3;
-			this.lbl_titolo.Text = "Benvenuti all\'hotel Blu";
+			this.lbl_titolo.Text = "Benvenuti all\'Hotel Blu";
 			// 
 			// pictureBox1
 			// 
@@ -108,22 +108,22 @@
 			// lbl_n1
 			// 
 			this.lbl_n1.AutoSize = true;
-			this.lbl_n1.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbl_n1.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lbl_n1.Location = new System.Drawing.Point(16, 78);
 			this.lbl_n1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lbl_n1.Name = "lbl_n1";
-			this.lbl_n1.Size = new System.Drawing.Size(403, 21);
+			this.lbl_n1.Size = new System.Drawing.Size(416, 22);
 			this.lbl_n1.TabIndex = 6;
 			this.lbl_n1.Text = "immaginati un eseperienza di totale relax e confort";
 			// 
 			// lbl_n2
 			// 
 			this.lbl_n2.AutoSize = true;
-			this.lbl_n2.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbl_n2.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lbl_n2.Location = new System.Drawing.Point(16, 98);
 			this.lbl_n2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lbl_n2.Name = "lbl_n2";
-			this.lbl_n2.Size = new System.Drawing.Size(824, 21);
+			this.lbl_n2.Size = new System.Drawing.Size(853, 22);
 			this.lbl_n2.TabIndex = 7;
 			this.lbl_n2.Text = "all\'interno della nostra struttura situata lungo mare dove potrai riposarti duran" +
     "te i tuoi gioirni di vacanza";
@@ -135,9 +135,9 @@
 			this.lbl_n3.Location = new System.Drawing.Point(3, 294);
 			this.lbl_n3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lbl_n3.Name = "lbl_n3";
-			this.lbl_n3.Size = new System.Drawing.Size(406, 22);
+			this.lbl_n3.Size = new System.Drawing.Size(408, 22);
 			this.lbl_n3.TabIndex = 8;
-			this.lbl_n3.Text = "inserisci quanti giorni vuoi soggiornare nell\'hotel";
+			this.lbl_n3.Text = "Inserisci quanti giorni vuoi soggiornare nell\'hotel";
 			// 
 			// txt_giorni
 			// 
@@ -165,13 +165,13 @@
 			this.lbl_n4.Location = new System.Drawing.Point(16, 352);
 			this.lbl_n4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lbl_n4.Name = "lbl_n4";
-			this.lbl_n4.Size = new System.Drawing.Size(243, 22);
+			this.lbl_n4.Size = new System.Drawing.Size(248, 22);
 			this.lbl_n4.TabIndex = 11;
-			this.lbl_n4.Text = "vuoi prenotare il parcheggio?";
+			this.lbl_n4.Text = "Vuoi prenotare il parcheggio?";
 			// 
 			// btn_prenota
 			// 
-			this.btn_prenota.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btn_prenota.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btn_prenota.ForeColor = System.Drawing.Color.Fuchsia;
 			this.btn_prenota.Location = new System.Drawing.Point(20, 419);
 			this.btn_prenota.Margin = new System.Windows.Forms.Padding(4);
@@ -185,12 +185,12 @@
 			// lbl_spesaTotale
 			// 
 			this.lbl_spesaTotale.AutoSize = true;
-			this.lbl_spesaTotale.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbl_spesaTotale.Font = new System.Drawing.Font("Modern No. 20", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lbl_spesaTotale.ForeColor = System.Drawing.Color.Fuchsia;
 			this.lbl_spesaTotale.Location = new System.Drawing.Point(16, 497);
 			this.lbl_spesaTotale.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lbl_spesaTotale.Name = "lbl_spesaTotale";
-			this.lbl_spesaTotale.Size = new System.Drawing.Size(105, 22);
+			this.lbl_spesaTotale.Size = new System.Drawing.Size(121, 25);
 			this.lbl_spesaTotale.TabIndex = 13;
 			this.lbl_spesaTotale.Text = "spesa totale:";
 			// 
@@ -200,10 +200,10 @@
 			this.cmb_selezionecamera.ForeColor = System.Drawing.Color.Fuchsia;
 			this.cmb_selezionecamera.FormattingEnabled = true;
 			this.cmb_selezionecamera.Items.AddRange(new object[] {
-            "bassa",
+            "base",
             "media",
             "alta"});
-			this.cmb_selezionecamera.Location = new System.Drawing.Point(470, 237);
+			this.cmb_selezionecamera.Location = new System.Drawing.Point(486, 240);
 			this.cmb_selezionecamera.Margin = new System.Windows.Forms.Padding(4);
 			this.cmb_selezionecamera.Name = "cmb_selezionecamera";
 			this.cmb_selezionecamera.Size = new System.Drawing.Size(175, 30);
@@ -215,13 +215,14 @@
 			this.btn_informazioni.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
 			this.btn_informazioni.ForeColor = System.Drawing.Color.Black;
 			this.btn_informazioni.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.btn_informazioni.Location = new System.Drawing.Point(418, 545);
+			this.btn_informazioni.Location = new System.Drawing.Point(459, 545);
 			this.btn_informazioni.Margin = new System.Windows.Forms.Padding(4);
 			this.btn_informazioni.Name = "btn_informazioni";
-			this.btn_informazioni.Size = new System.Drawing.Size(76, 28);
+			this.btn_informazioni.Size = new System.Drawing.Size(90, 37);
 			this.btn_informazioni.TabIndex = 15;
 			this.btn_informazioni.Text = "?";
 			this.btn_informazioni.UseVisualStyleBackColor = false;
+			this.btn_informazioni.Click += new System.EventHandler(this.btn_informazioni_Click);
 			// 
 			// lbl_n6
 			// 
@@ -230,9 +231,9 @@
 			this.lbl_n6.Location = new System.Drawing.Point(13, 548);
 			this.lbl_n6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lbl_n6.Name = "lbl_n6";
-			this.lbl_n6.Size = new System.Drawing.Size(367, 25);
+			this.lbl_n6.Size = new System.Drawing.Size(411, 25);
 			this.lbl_n6.TabIndex = 16;
-			this.lbl_n6.Text = "premere qui per per informazioni sul hotel";
+			this.lbl_n6.Text = "premere qui per per informazioni sull\' Hotel Blu";
 			// 
 			// pictureBox3
 			// 

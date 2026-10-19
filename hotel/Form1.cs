@@ -33,7 +33,7 @@ namespace hotel
                 double costoGiornaliero = 0;
                 if( stagione=="bassa stagione")
                 {
-                    if(stanza=="bassa")
+                    if(stanza=="base")
                     {
                         costoGiornaliero = 15;
                     }else if( stanza=="media")
@@ -45,7 +45,7 @@ namespace hotel
                     }
                 }if (stagione == "media stagione")
                 {
-                    if( stanza=="bassa")
+                    if( stanza=="base")
                     {
                         costoGiornaliero = 20;
                     }else if( stanza=="media")
@@ -57,7 +57,7 @@ namespace hotel
                     }
                 }if ( stagione=="alta stagione")
                 {
-                    if( stanza=="bassa")
+                    if( stanza=="base")
                     {
                         costoGiornaliero = 25;
                     }else if( stanza =="media")
@@ -93,5 +93,17 @@ namespace hotel
                 lbl_spesaTotale.Text = " spesa totale: " + prezzoTotale;
 			}
         }
+
+		private void btn_informazioni_Click(object sender, EventArgs e)
+		{
+            string infoHotel = " Bevenuto nell'Hotel Blue\n" +
+                               " Ora vi elencherò tutte le procedure per fare una prenotazione all' interno del nostro hotel: \n" +
+                               " 1) selezionare il tipo di stagione che preferisce\n" +
+                               " 2) seleziona il tipo di stanza che le piace\n" +
+                               " 3) inserisca il numero di giorni che desidera trascorrere nel nostro hotel\n" +
+                               " 4) selezionare il parcheggio se lo desidera sennò non deve mettere la spunta\n" +
+                               " 5) premere il tasto prenota dove potrà vedere il prezzo totale di tutta la vacanza\n";
+             MessageBox.Show( infoHotel, " informazioni Hotel Blu", MessageBoxButtons.OK, MessageBoxIcon.Information );
+		}
 	}
 }
